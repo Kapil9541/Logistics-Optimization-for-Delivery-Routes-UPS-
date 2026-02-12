@@ -1,5 +1,5 @@
-🚚 Logistics Optimization for Delivery Routes – SQL Analytics Project
-📌 Project Overview :-
+# 🚚 Logistics Optimization for Delivery Routes – SQL Analytics Project
+## 📌 Project Overview :-
 
 This project focuses on building a SQL-driven logistics analytics system to analyze delivery performance, identify delays, optimize transportation routes, and improve shipment efficiency.
 Using structured logistics datasets, the analysis uncovers operational bottlenecks and provides data-driven recommendations for improving delivery reliability and cost efficiency.
@@ -7,7 +7,7 @@ Using structured logistics datasets, the analysis uncovers operational bottlenec
 The project simulates a real-world logistics environment similar to large delivery networks handling high shipment volumes across multiple regions. 
 
 
-🎯 Project Objectives :-
+ ## 🎯 Project Objectives :-
 
 1.Analyze delivery delays and shipment performance
 
@@ -21,11 +21,11 @@ The project simulates a real-world logistics environment similar to large delive
 
 6.Provide actionable insights for operational improvement
 
-🗂️ Dataset Description :-
+## 🗂️ Dataset Description :-
 
 The project uses multiple relational tables:
 
-Table	Description :-
+### Table	Description :-
 1.Orders -	Order-level delivery details
 
 2.Routes -	Transportation distance, locations, and travel time
@@ -36,7 +36,7 @@ Table	Description :-
 
 5.Shipments	Tracking - checkpoints, delays, and delivery timestamps
 
-🛠️ Tools & Technologies :-
+## 🛠️ Tools & Technologies :-
 
 SQL (MySQL / PostgreSQL / SQL Server)
 
@@ -48,9 +48,9 @@ Aggregations & KPI Calculations
 
 PowerPoint / Visualization Tools for reporting
 
-📊 Project Workflow :-
+## 📊 Project Workflow :-
 
-1️⃣ Data Cleaning & Preparation
+### 1️⃣ Data Cleaning & Preparation
 
 -Removed duplicate records
 
@@ -60,7 +60,7 @@ PowerPoint / Visualization Tools for reporting
 
 -Flagged invalid delivery records
 
-2️⃣ Delivery Delay Analysis
+### 2️⃣ Delivery Delay Analysis
 
 -Calculated delivery delay for each shipment
 
@@ -68,7 +68,7 @@ PowerPoint / Visualization Tools for reporting
 
 -Ranked delayed orders using window functions
 
-3️⃣ Route Optimization Insights
+### 3️⃣ Route Optimization Insights
 
 -Computed route efficiency ratios
 
@@ -76,7 +76,7 @@ PowerPoint / Visualization Tools for reporting
 
 -Identified routes with high delay percentages
 
-4️⃣ Warehouse Performance Analysis
+### 4️⃣ Warehouse Performance Analysis
 
 -Evaluated warehouse processing times
 
@@ -84,7 +84,7 @@ PowerPoint / Visualization Tools for reporting
 
 -Ranked warehouses by on-time delivery %
 
-5️⃣ Delivery Agent Performance
+### 5️⃣ Delivery Agent Performance
 
 -Ranked agents by on-time delivery %
 
@@ -92,7 +92,7 @@ PowerPoint / Visualization Tools for reporting
 
 -Detected underperforming agents
 
-6️⃣ Shipment Tracking Analytics
+### 6️⃣ Shipment Tracking Analytics
 
 -Extracted latest shipment checkpoints
 
@@ -100,7 +100,7 @@ PowerPoint / Visualization Tools for reporting
 
 -Found shipments with repeated delays
 
-7️⃣ KPI Reporting
+### 7️⃣ KPI Reporting
 
 -On-time delivery percentage
 
@@ -108,7 +108,7 @@ PowerPoint / Visualization Tools for reporting
 
 -Route-level traffic delay metrics
 
-📈 Key Insights
+## 📈 Key Insights
 
 1.Several routes (Routes R006, R016, R008, R007, and R014 )showed high distance-to-time inefficiency, indicating potential optimization opportunities.
 
@@ -118,7 +118,7 @@ PowerPoint / Visualization Tools for reporting
 
 4.Sorting Delay and Weather Delay were a major contributor to delivery inefficiencies.
 
-📂 Repository Structure
+## 📂 Repository Structure
 Logistics-Optimization-UPS/
 │
 
@@ -130,7 +130,7 @@ Logistics-Optimization-UPS/
 
 ├── README.md
 
-▶️ How to Run
+### ▶️ How to Run
 
 Import datasets into your SQL database.
 
@@ -140,7 +140,7 @@ Review output tables and KPIs.
 
 Refer to the presentation folder for visualization and insights.
 
-🚀 Business Impact
+## 🚀 Business Impact
 
 This project demonstrates how SQL analytics can optimize logistics operations, enabling:
 
@@ -152,7 +152,7 @@ Better warehouse efficiency
 
 Enhanced shipment tracking visibility
 
-👤 Author
+## 👤 Author
 
 Kapil Khatana
 Aspiring Data Scientist | SQL | Power BI | Logistics Analytics
